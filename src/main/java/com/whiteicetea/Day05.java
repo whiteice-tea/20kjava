@@ -51,14 +51,23 @@ public class Day05 {
 //            }
 //            System.out.println("");
 //        }
-        int j = 1;
-        int sum = 0;
+//        int j = 1;
+//        int sum = 0;
+//
+//        for(int i=1;i<=100;i++){
+//            for(int k=1;k<=i;k++){
+//                sum+=k;
+//            }
+//        }
+//        System.out.println(sum);
 
-        for(int i=1;i<=100;i++){
-            for(int k=1;k<=i;k++){
-                sum+=k;
-            }
+        char[] chars = new char[26];
+//        System.out.println(chars.length);
+        for(int i=0;i<chars.length;i++){
+            chars[i]=(char)('A'+i);
         }
-        System.out.println(sum);
+        for(int i=0;i<chars.length;i++){
+            System.out.print(chars[i]);
+        }
     }
 }
