@@ -5,7 +5,7 @@ public class Day10 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
-        T t1 = new T();
+        T1 t1 = new T1();
         System.out.println(t1.factorial(a));
 
     }
@@ -13,7 +13,7 @@ public class Day10 {
 
 
 
-class T{
+class T1{
     public int factorial(int n){
         if(n==1){
             return 1;
