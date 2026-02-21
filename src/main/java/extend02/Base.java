@@ -9,6 +9,10 @@ public class Base {
     public Base() {
         System.out.println("Base Constructor");
     }
+
+    public Base(int n) {
+        System.out.println("Base Constructor" +n);
+    }
     public void test100(){
         System.out.println("Base test100");
 
