@@ -15,8 +15,8 @@ public class Record {
         this.balanceAfter = balanceAfter;
     }
     @Override
-    public String toString(){
-        String signAmount = (amount>=0?"+":"-")+amount;
-        return type + " " + signAmount + " " + time + " " + note + " " + balanceAfter;
+    public String toString() {
+        String sign = amount >= 0 ? "+" : "-";
+        return type + " " + sign + Math.abs(amount) + " " + time + " " + note + " 余额:" + balanceAfter;
     }
 }
